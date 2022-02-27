@@ -1,8 +1,8 @@
-const Eris = require("eris");
+const Martian = require("martian");
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris.CommandClient("Bot TOKEN", {}, {
-    description: "A test bot made with Eris",
+const bot = new Martian.CommandClient("Bot TOKEN", {}, {
+    description: "A test bot made with Martian",
     owner: "somebody",
     prefix: "!"
 });

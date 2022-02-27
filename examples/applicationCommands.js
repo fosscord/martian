@@ -1,9 +1,9 @@
-const Eris = require("eris");
+const Martian = require("martian");
 
-const Constants = Eris.Constants;
+const Constants = Martian.Constants;
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris("BOT TOKEN", {
+const bot = new Martian("BOT TOKEN", {
     intents: [] //No intents are needed for interactions, but you still need to specify either an empty array or 0
 });
 
@@ -80,7 +80,7 @@ bot.on("error", (err) => {
 });
 
 bot.on("interactionCreate", (interaction) => {
-    if(interaction instanceof Eris.CommandInteraction) {
+    if(interaction instanceof Martian.CommandInteraction) {
         switch(interaction.data.name) {
             case "test_edit_command":
                 interaction.createMessage("interaction recieved");

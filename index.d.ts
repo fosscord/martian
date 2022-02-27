@@ -7,9 +7,9 @@ import { URL } from "url";
 import { Socket as DgramSocket } from "dgram";
 import * as WebSocket from "ws";
 
-declare function Eris(token: string, options?: Eris.ClientOptions): Eris.Client;
+declare function Martian(token: string, options?: Martian.ClientOptions): Martian.Client;
 
-declare namespace Eris {
+declare namespace Martian {
   export const Constants: Constants;
   export const VERSION: string;
 
@@ -3658,4 +3658,4 @@ declare namespace Eris {
   }
 }
 
-export = Eris;
+export = Martian;

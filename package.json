@@ -1,5 +1,5 @@
 {
-  "name": "eris",
+  "name": "martian",
   "version": "0.16.2-dev",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
@@ -26,21 +26,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abalabahaha/eris.git"
+    "url": "git+https://github.com/abalabahaha/martian.git"
   },
   "keywords": [
     "api",
     "discord",
     "discordapp",
-    "eris",
+    "martian",
     "wrapper"
   ],
   "author": "abalabahaha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abalabahaha/eris/issues"
+    "url": "https://github.com/abalabahaha/martian/issues"
   },
-  "homepage": "https://abal.moe/Eris/",
+  "homepage": "https://abal.moe/Martian/",
   "dependencies": {
     "ws": "^8.2.3"
   },

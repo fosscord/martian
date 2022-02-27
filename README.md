@@ -1,4 +1,7 @@
-Eris [![NPM version](https://img.shields.io/npm/v/eris.svg?style=flat-square&color=informational)](https://npmjs.com/package/eris)
+<p align="center">
+  <img width="100" src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Icon-Rounded-Subtract.svg"/>
+</p>
+<h1 align="center">Martian</h1>
 ====
 
 A Node.js wrapper for interfacing with Discord.
@@ -6,10 +9,10 @@ A Node.js wrapper for interfacing with Discord.
 Installing
 ----------
 
-You will need NodeJS 10.4+. If you need voice support you will also need Python 2.7 and a C++ compiler. Refer to [the Getting Started section of the docs](https://abal.moe/Eris/docs) for more details.
+You will need NodeJS 10.4+. If you need voice support you will also need Python 2.7 and a C++ compiler. Refer to [the Getting Started section of the docs](https://www.youtube.com/watch?v=d1YBv2mWll0) for more details.
 
 ```
-npm install --no-optional eris
+npm install --no-optional martian
 ```
 
 If you need voice support, remove the `--no-optional`.
@@ -18,10 +21,10 @@ Ping Pong Example
 -----------------
 
 ```js
-const Eris = require("eris");
+const Martian = require("martian");
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris("Bot TOKEN", {
+const bot = new Martian("Bot TOKEN", {
     intents: [
         "guildMessages"
     ]
@@ -48,15 +51,15 @@ bot.on("messageCreate", (msg) => { // When a message is created
 bot.connect(); // Get the bot to connect to Discord
 ```
 
-More examples can be found in [the examples folder](https://github.com/abalabahaha/eris/tree/master/examples).
+More examples can be found in [the examples folder](https://www.youtube.com/watch?v=d1YBv2mWll0).
 
 Useful Links
 ------------
 
-- [The website](https://abal.moe/Eris/) has more details and documentation.
-- [The official Eris server](https://abal.moe/Eris/invite) is the best place to get support.
-- [The GitHub repo](https://github.com/abalabahaha/eris) is where development primarily happens.
-- [The NPM package webpage](https://npmjs.com/package/eris) is, well, the webpage for the NPM package.
+- [The website](https://www.youtube.com/watch?v=d1YBv2mWll0) has more details and documentation.
+- [The official Martian server](https://www.youtube.com/watch?v=d1YBv2mWll0) is the best place to get support.
+- [The GitHub repo](https://www.youtube.com/watch?v=d1YBv2mWll0) is where development primarily happens.
+- [The NPM package webpage](https://www.youtube.com/watch?v=d1YBv2mWll0) is, well, the webpage for the NPM package.
 
 License
 -------

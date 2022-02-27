@@ -1,7 +1,7 @@
-const Eris = require("eris");
+const Martian = require("martian");
 
 // Replace TOKEN with your bot account's token
-const bot = new Eris("Bot TOKEN");
+const bot = new Martian("Bot TOKEN");
 
 bot.on("ready", () => { // When the bot is ready
     console.log("Ready!"); // Log "Ready!"
@@ -35,7 +35,7 @@ bot.on("messageCreate", (msg) => { // When a message is created
                     }
                 ],
                 footer: { // Footer text
-                    text: "Created with Eris."
+                    text: "Created with Martian."
                 }
             }]
         });
