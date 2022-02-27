@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Martian</h1>
 
-A Node.js wrapper for interfacing with Discord.
+<p align="center">A Node.js wrapper for interfacing with Discord.</p>
 
 Installing
 ----------
@@ -41,9 +41,9 @@ bot.on("messageCreate", (msg) => { // When a message is created
     if(msg.content === "!ping") { // If the message content is "!ping"
         bot.createMessage(msg.channel.id, "Pong!");
         // Send a message in the same channel with "Pong!"
-    } else if(msg.content === "!pong") { // Otherwise, if the message is "!pong"
-        bot.createMessage(msg.channel.id, "Ping!");
-        // Respond with "Ping!"
+    } else if(msg.content === "!jebaited") { // Otherwise, if the message is "!jebaited"
+        bot.createMessage(msg.channel.id, "https://www.youtube.com/watch?v=d1YBv2mWll0");
+        // Respond with "https://www.youtube.com/watch?v=d1YBv2mWll0"
     }
 });
 
